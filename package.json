@@ -1,15 +1,11 @@
 {
   "name": "expresswithmongoes",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "api/index.js",
   "scripts": {
-     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node api/index.js",
     "vercel-build": "echo 'Vercel build step'"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
     "express": "^4.21.0",
