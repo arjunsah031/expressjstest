@@ -17,6 +17,7 @@ console.log('MONGODB_URI:', process.env.MONGODB_URI);  // This should log the Mo
 mongoose.connect(process.env.MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
+  poolSize: 10,
 })
 .then(() => console.log('MongoDB connected'))
 .catch(err => console.log(err));
